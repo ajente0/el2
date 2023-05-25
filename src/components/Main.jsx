@@ -3,7 +3,7 @@ function Main() {
   return (
     <div>
       <a href="/el2/lista">
-        Github
+        Githuba
       </a>
     </div>
   );

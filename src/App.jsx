@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Lista from './components/Lista';
+import Main from './components/Main';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,6 +34,7 @@ function App() {
 
       <Routes>
         <Route path="/el2/lista" element={<Lista />} />
+        <Route path="/el2" element={<Main />} />
       </Routes>
     </>
   );
